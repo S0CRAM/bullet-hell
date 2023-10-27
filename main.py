@@ -2,12 +2,12 @@ import pygame
 
 pygame.init()
 
-FramePerSec = pygame.time.Clock()
+fps = pygame.time.Clock()
 
 
 def update_game_display():
     pygame.display.update()
-    FramePerSec.tick(60)
+    fps.tick(60)
 
 
 def main():
