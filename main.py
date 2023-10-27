@@ -1,9 +1,10 @@
 import pygame
 
+from src.config import config
+
 pygame.init()
 
 fps = pygame.time.Clock()
-
 
 def update_game_display():
     pygame.display.update()
@@ -12,7 +13,6 @@ def update_game_display():
 
 def main():
     while True:
-
 
         update_game_display()
 
